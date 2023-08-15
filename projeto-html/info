@@ -1,0 +1,24 @@
+PROGRAMAÇÃO WEB
+
+HTML -> Conteúdo
+CSS -> Etética/Design
+JS -> Comportamento
+
+Toda chave de abertura tem uma chave de fechamento.
+
+<br> é o break do HTML
+
+Quando não há conteúdo a ser apresentado, mas gostaria de pular uma linha, por exemplo, utilizamos:
+<br> -> abertura sem fechamento
+<br/> -> abertura com fechamento
+
+&nbsp; -> quando você quer inserir espaço em branco.
+
+<a> ... </a>  ->  âncora (anchor) 
+
+<a href="#teste"> informação </a> -> clique para pular para uma parte específica ou direcionar a um link
+<a id="teste"> informação </a> -> parte referenciada quando a pessoa clica no <a href>
+target="blank" -> para criar uma nova página ao clicar em um link
+
+<img src="...">
+alt = texto alternativo da imagem
