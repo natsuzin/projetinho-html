@@ -1,0 +1,56 @@
+<html>
+    <body>
+        <table border="1">
+            <thead>
+                <th colspan="4"> TABELA </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4">VENDAS</th>
+                    <th> Dia 1 </th>
+                    <th> Dia 2 </th>
+                    <th> Dia 3 </th>
+                </tr>
+                <tr> 
+                    <td> 1x1 </td> 
+                    <td colspan="2"> 1x2 </td> </td>
+                </tr>
+                <tr>
+                    <td> 2x1 </td>
+                    <td> 2x2 </td>
+                    <td> 2x3 </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> Total (R$): </td>
+                    <td> valor </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <form action="" method="post">
+            <label for="id_login">
+                Usuário:
+            </label>
+            <input name="login" id="id_login" type="text" value="root"/>
+            <label for="id_senha">
+                Senha:
+            </label>
+            <input name="senha" id="id_senha" type="password"/>
+            <br>
+            <input name="manter" value="1" type="checkbox"/> Manter logado 
+            <br>
+            <br>
+            <input name="tipo" value="admin" type="radio"/> Admin 
+            <input name="tipo" value="outro" type="radio"/> Outro
+            <br>
+            <br>
+            <select name="unidade">
+                <option value="567">Kobrasol</option>
+                <option value="875">Ilha</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Acessar sistema"/>
+        </form>
+    </body>
+</html>
